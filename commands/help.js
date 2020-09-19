@@ -2,6 +2,6 @@ module.exports = {
   name: 'help',
   description: 'help!',
   execute(message, args) {
-    message.channel.send('no!');
+    message.channel.send('no');
   },
 };
