@@ -14,13 +14,13 @@ for (const file of commandFiles) {
 client.once('ready', () => {
 
     console.log('All is good.');
-    client.user.setPresence({
-	status: "online",
-	game: {
-		name: "pc help",
-		type: "PLAYING"
-	}
-    });
+    	client.user.setPresence({
+		status: "online",
+		game: {
+			name: "pc help",
+			type: "PLAYING"
+		}
+    	});
 
 });
 
