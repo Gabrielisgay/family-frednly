@@ -17,8 +17,6 @@ client.once('ready', () => {
 
 });
 
-client.user.setActivity("pc help",{type: "playing"});
-
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -36,7 +34,7 @@ client.on('message', message => {
 	}
 });
 
- 
+client.user.setActivity("pc help",{type: "playing"});
 
 // THIS  MUST  BE  THIS  WAY
 
