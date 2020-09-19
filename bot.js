@@ -14,14 +14,10 @@ for (const file of commandFiles) {
 client.once('ready', () => {
 
     console.log('All is good.');
-    client.user.setPresence({
-	status: "online",
-	game: { name: "pc help"}
-    });
 
 });
 
-
+client.user.setActivity("Playing pc help")
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
