@@ -17,7 +17,7 @@ client.once('ready', () => {
 
 });
 
-client.user.setActivity("Playing pc help")
+client.user.setPresence("Playing pc help")
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
