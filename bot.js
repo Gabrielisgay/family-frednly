@@ -17,10 +17,7 @@ client.once('ready', () => {
 
 });
 
-client.user.setPresence({
-		status: "online",
-		game: { name: "pc help"}
-    	});
+client.user.setActivity("pc help",{type: "playing"});
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
