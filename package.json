@@ -18,7 +18,9 @@
 
     "discord.js": "12.1.0",
 
-    "request": "2.81.0"
+    "request": "2.81.0",
+    
+    "quick.db": "7.1.1"
 
   }
 
