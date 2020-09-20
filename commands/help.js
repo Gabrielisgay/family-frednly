@@ -35,4 +35,4 @@ module.exports = {
 
       message.channel.send(data, { split: true });
   }
-};
+  }
