@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.once('ready', () => {
 
-    console.log('All is good.');
+    console.log('Alllllll is good.');
 
 });
 
