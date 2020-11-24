@@ -8,7 +8,9 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-
+    if (message.content === "test") {
+        message.channel.send("no");
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
