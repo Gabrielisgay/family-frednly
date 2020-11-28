@@ -1,4 +1,4 @@
-Myconst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 var words = new Array("test", "mean");
