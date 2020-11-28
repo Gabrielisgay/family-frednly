@@ -17,6 +17,7 @@ client.on('message', message => {
         var egg = eggs.include(args[i]);
         if (egg === true) {
             message.react(':eggplant:');
+        }
         var swear = words.includes(args[i]);
         if (swear === true) {
             return message.channel.send('no.')
