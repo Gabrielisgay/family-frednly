@@ -12,7 +12,7 @@ client.once('ready', () => {
 client.on('message', message => {
     const args = message.content.split(/ +/);
     for (i = 0; i < args.length; i++) {
-        var swear = words.includes(args[0]);
+        var swear = words.includes(args[i]);
         if (swear === true) {
             return message.channel.send('no.')
         }
