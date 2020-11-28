@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+Myconst Discord = require('discord.js');
 const client = new Discord.Client();
 
 var words = new Array("test", "mean");
@@ -16,7 +16,7 @@ client.on('message', message => {
     for (i = 0; i < args.length; i++) {
         var egg = eggs.includes(args[i]);
         if (egg === true) {
-            return message.react(':eggplant:')
+            return message.react(':egg:')
         }
         var swear = words.includes(args[i]);
         if (swear === true) {
