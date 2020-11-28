@@ -14,7 +14,7 @@ client.on('message', message => {
     for (i = 0; i < args.length; i++) {
         var swear = words.includes(args[0]);
     }
-    if (swear === true) {
+        if (swear === true) {
         return message.channel.send('no.')
     }
 });
