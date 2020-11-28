@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+var words = new Array("test", "mean");
+
 client.once('ready', () => {
 
     console.log('Alllllll is good.');
@@ -8,8 +10,12 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === "test") {
-        message.channel.send("no");
+    const args = message.content.split(/ +/);
+    for (i = 0; i < words.length; i++) {
+        var swear = words.includes(word);
+    }
+    if (swear === True) {
+        return message.channel.send('no.')
     }
 });
 
