@@ -11,8 +11,8 @@ client.once('ready', () => {
 
 client.on('message', message => {
     const args = message.content.split(/ +/);
-    for (i = 0; i < words.length; i++) {
-        var swear = words.includes(word);
+    for (i = 0; i < args.length; i++) {
+        var swear = words.includes(args[0]);
     }
     if (swear === True) {
         return message.channel.send('no.')
