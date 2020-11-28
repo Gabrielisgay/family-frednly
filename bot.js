@@ -16,7 +16,7 @@ client.on('message', message => {
     for (i = 0; i < args.length; i++) {
         var egg = eggs.includes(args[i]);
         if (egg === true) {
-            return message.react(':egg:')
+            return message.react('🍆')
         }
         var swear = words.includes(args[i]);
         if (swear === true) {
