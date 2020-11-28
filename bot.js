@@ -14,7 +14,7 @@ client.once('ready', () => {
 client.on('message', message => {
     const args = message.content.split(/ +/);
     for (i = 0; i < args.length; i++) {
-        var egg = eggs.include(args[i]);
+        var egg = eggs.includes(args[i]);
         if (egg === true) {
             return message.react(':eggplant:')
         }
