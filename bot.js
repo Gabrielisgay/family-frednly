@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 var words = new Array("test", "mean");
 
-var eggs = new Array("cock", "pp", "dick", "penis");
+var eggs = new Array("cock", "willy", "pp", "dick", "penis");
 
 client.once('ready', () => {
 
