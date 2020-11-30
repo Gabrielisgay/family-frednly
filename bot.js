@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-var words = new Array("test", "mean");
+var words = new Array("test", "mean", "fuck", "shit", "balls", "cunt", "faggot", "theo adlem", "fucktard", "gayass", "fucknugget", "nigger", "nigga", "retard", "twat", "wanker", );
 
 var eggs = new Array("cock", "willy", "pp", "dick", "penis");
 
